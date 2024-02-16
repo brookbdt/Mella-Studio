@@ -13,12 +13,12 @@
 		</p>
 		<div class="flex justify-center items-center flex-wrap gap-4">
 			<a
-				href="/products"
+				href="#products"
 				class="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition duration-300"
 				>Explore Our Products</a
 			>
 			<a
-				href="/contact"
+				href="#contact"
 				class="border-2 border-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-primary transition duration-300"
 				>Book a Consultation</a
 			>
