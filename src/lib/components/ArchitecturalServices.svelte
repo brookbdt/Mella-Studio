@@ -45,11 +45,21 @@
 		<div class="flex flex-wrap -mx-4">
 			{#each projects as project}
 				<div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-					<div class="bg-white rounded-lg overflow-hidden shadow-lg">
-						<img src={project.imageUrl} alt={project.name} class="w-full h-auto object-cover" />
+					<div
+						class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:cursor-pointer transition duration-500 hover:scale-105 hover:shadow-xl"
+					>
+						<img
+							src={project.imageUrl}
+							alt={project.name}
+							class="w-full h-auto object-cover transition-transform duration-500 hover:scale-110"
+						/>
 						<div class="p-6">
-							<h3 class="font-semibold text-lg mb-2">{project.name}</h3>
-							<p class="text-gray-700">{project.description}</p>
+							<h3 class="font-semibold text-lg mb-2 transition duration-500 hover:text-primary">
+								{project.name}
+							</h3>
+							<p class="text-gray-700 transition duration-500 hover:text-secondary">
+								{project.description}
+							</p>
 						</div>
 					</div>
 				</div>
@@ -62,7 +72,7 @@
 				architectural solutions that not only meet but exceed our clients' expectations.
 			</p>
 			<a
-				href="/contact"
+				href="#contact"
 				class="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition duration-300"
 				>Consult With Us</a
 			>

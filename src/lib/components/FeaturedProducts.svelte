@@ -30,11 +30,15 @@
 						<img
 							src={product.imageUrl}
 							alt={product.name}
-							class="w-full h-auto transition-transform duration-500 hover:scale-110"
+							class="w-full h-auto transition-transform duration-500 hover:scale-110 hover:rotate-2"
 						/>
-						<div class="p-6">
-							<h3 class="font-semibold text-lg mb-2">{product.name}</h3>
-							<p class="text-gray-700">{product.description}</p>
+						<div class="p-6 transition duration-500 hover:translate-y-1">
+							<h3 class="font-semibold text-lg mb-2 transition duration-500 hover:text-primary">
+								{product.name}
+							</h3>
+							<p class="text-gray-700 transition duration-500 hover:text-secondary">
+								{product.description}
+							</p>
 						</div>
 					</div>
 				</div>

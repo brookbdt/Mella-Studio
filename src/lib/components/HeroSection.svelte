@@ -44,10 +44,13 @@
 
 	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-10">
 		<h1 class="text-4xl md:text-6xl text-white font-bold">Elevate Your Space with Mella Studio</h1>
-		<p class="text-xl text-white mt-4">Handcrafted lighting and innovative architectural designs</p>
-		<button
-			class="bg-primary text-white font-semibold px-6 py-3 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4"
-			>Explore Our Collection</button
+		<p class="text-xl text-white mt-4 mb-4">
+			Handcrafted lighting and innovative architectural designs
+		</p>
+		<a
+			href="#products"
+			class="bg-primary text-white font-semibold px-6 py-3 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-6"
+			>Explore Our Collection</a
 		>
 	</div>
 </div>
