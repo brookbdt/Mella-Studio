@@ -1,0 +1,75 @@
+<script lang="ts">
+	import services1 from '$lib/assets/images/services1.jpg';
+	import services2 from '$lib/assets/images/services2.jpg';
+	import services3 from '$lib/assets/images/services3.jpg';
+	import services4 from '$lib/assets/images/services4.jpg';
+	import services5 from '$lib/assets/images/services5.jpg';
+	// Example project data - replace with actual project data
+	interface Project {
+		id: number;
+		name: string;
+		description: string;
+		imageUrl: string;
+	}
+
+	const projects: Project[] = [
+		{
+			id: 1,
+			name: 'Elegant Home Design',
+			description: 'A blend of modern and traditional aesthetics.',
+			imageUrl: services1
+		},
+		{
+			id: 2,
+			name: 'Luxury Hotel Concept',
+			description: 'Innovative designs for a memorable guest experience.',
+			imageUrl: services2
+		},
+		{
+			id: 3,
+			name: 'Real Estate Development',
+			description: 'Sustainable and community-focused projects.',
+			imageUrl: services3
+		}
+		// Add more projects as needed
+	];
+</script>
+
+<section class="py-12 bg-primary">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-12">
+			<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Architectural Services</h2>
+			<p class="text-lg text-white">Creativity and customization at the core of every design</p>
+		</div>
+
+		<div class="flex flex-wrap -mx-4">
+			{#each projects as project}
+				<div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+					<div class="bg-white rounded-lg overflow-hidden shadow-lg">
+						<img src={project.imageUrl} alt={project.name} class="w-full h-auto object-cover" />
+						<div class="p-6">
+							<h3 class="font-semibold text-lg mb-2">{project.name}</h3>
+							<p class="text-gray-700">{project.description}</p>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+
+		<div class="text-center mt-12">
+			<p class="text-lg mb-4 text-white">
+				From conceptualization to execution, our team is dedicated to delivering bespoke
+				architectural solutions that not only meet but exceed our clients' expectations.
+			</p>
+			<a
+				href="/contact"
+				class="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition duration-300"
+				>Consult With Us</a
+			>
+		</div>
+	</div>
+</section>
+
+<style>
+	/* Additional custom styles if needed */
+</style>
