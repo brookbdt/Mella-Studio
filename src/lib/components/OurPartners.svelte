@@ -18,7 +18,7 @@
 		Partner7,
 		Partner8
 
-		// Add more logos as needed
+		// Add more logos as neededd
 	];
 </script>
 
