@@ -1,43 +1,57 @@
 <script lang="ts">
 	import alllights from '$lib/assets/images/alllights.jpeg';
 	import alldrawings from '$lib/assets/images/alldrawings.jpeg';
-	import valentines from '$lib/assets/images/valentines.jpg';
+	import about2 from '$lib/assets/images/about2.png';
+	import about from '$lib/assets/images/about.png';
 </script>
 
-<section class="py-12 bg-secondary text-tertiary">
-	<div class="container mx-auto max-w-4xl">
-		<div class="text-center mb-12">
-			<h2 class="text-3xl md:text-4xl font-light mb-4">About Mella Studio</h2>
-			<p class="text-lg">Crafting Unique Experiences Through Design</p>
+<section class="py-16 bg-gradient-to-r from-blue-50 to-gray-100 text-gray-900">
+	<div class="container mx-auto px-4 max-w-7xl">
+		<!-- Title and Main Description -->
+		<div class="mb-16">
+			<h2 class="text-4xl font-bold text-gray-900 mb-6">About Mella Studio</h2>
+			<p class="text-lg text-gray-700 max-w-2xl text-justify">
+				At Mella Studio, we blend traditional arts with modern design to create unique lighting
+				products and architectural solutions. Our approach is rooted in Ethiopia's rich cultural
+				heritage, making each piece a narrative of meticulous craftsmanship and innovation.
+			</p>
 		</div>
 
-		<div class="flex flex-wrap -mx-4">
-			<div class="w-full md:w-1/2 px-4 mb-8 md:mb-0 overflow-hidden">
-				<div class="mb-6 md:mb-8 perspective">
-					<img
-						src={valentines}
-						alt="Mella Studio Craftsmanship"
-						class="rounded-lg shadow-lg transform-gpu hover:scale-105 transition-transform duration-700 ease-in-out hover:rotate-3d hover:cursor-pointer"
-					/>
-				</div>
+		<!-- First Image and Description -->
+		<div class="flex flex-wrap md:flex-nowrap items-center mb-16">
+			<div class="w-full md:w-1/2">
+				<img
+					src={about}
+					alt="Mella Studio Craftsmanship"
+					class="rounded-xl transform transition duration-300 hover:scale-105 mb-8 md:mb-0"
+				/>
 			</div>
-			<div class="w-full md:w-1/2 px-4 flex flex-col justify-center items-center">
-				<p class="mb-4 text-justify">
-					At Mella Studio, we blend traditional arts and crafts with modern design principles to
-					create one-of-a-kind light products and architectural solutions. Our approach is deeply
-					rooted in the rich cultural heritage of Ethiopia, and each piece we craft tells a story of
-					meticulous craftsmanship and innovative design.
+			<div class="w-full md:w-1/2 md:pl-10">
+				<p class="text-lg text-gray-700 text-justify">
+					Led by visionary architects, Mella Studio is on a mission to redefine the boundaries of
+					design. Our work is not just about creating objects or spaces; it's about fostering a
+					creative community that transcends borders and brings Ethiopian artistry to the forefront
+					of the global design scene.
 				</p>
-				<p class="mb-4 text-justify">
-					Led by a team of visionary architects, Mella Studio is on a mission to redefine the
-					boundaries of design. Our work is not just about creating objects or spaces; it's about
-					fostering a creative and productive community that transcends borders and brings Ethiopian
-					artistry to the forefront of the global design scene.
+			</div>
+		</div>
+
+		<!-- Second Description and Image -->
+		<div class="flex ml-0 flex-wrap md:flex-nowrap items-center">
+			<div class="w-full md:w-1/2 md:pr-10 mx-auto">
+				<p class="text-lg text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
+					Join us on our journey to illuminate the world with the unique spirit of Ethiopian
+					craftsmanship. Each project we undertake is a step towards bringing a new perspective to
+					design, blending traditional techniques with contemporary aesthetics to create something
+					truly unique.
 				</p>
-				<p class="text-justify">
-					Join us in our journey to illuminate the world with the unique spirit of Ethiopian
-					craftsmanship.
-				</p>
+			</div>
+			<div class="w-full ml-0 md:w-1/2">
+				<img
+					src={about2}
+					alt="Mella Studio Workshop"
+					class="rounded-xl w-full transform transition duration-300 hover:scale-105"
+				/>
 			</div>
 		</div>
 	</div>
@@ -49,6 +63,10 @@
 		.container {
 			width: calc(100% - 1rem);
 		}
+	}
+	img:hover {
+		overflow: hidden;
+		z-index: 10;
 	}
 	/* Custom styles for 3D rotation effect */
 	.perspective {
@@ -62,5 +80,16 @@
 	.transform-gpu {
 		transform-style: preserve-3d;
 		will-change: transform;
+	}
+
+	.perspective:hover {
+		transform: perspective(1000px) rotateX(10deg) rotateY(10deg) scale(1.05); /* Add a 3D hover effect */
+		transition: transform 0.5s ease;
+	}
+
+	@media (min-width: 768px) {
+		.perspective {
+			margin-bottom: 2rem; /* Ensure consistent spacing */
+		}
 	}
 </style>

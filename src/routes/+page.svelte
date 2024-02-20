@@ -19,11 +19,12 @@
 <div id="about">
 	<AboutMellaStudio />
 </div>
-<div id="">
-	<CallToAction />
-</div>
+
 <div id="products">
 	<FeaturedProducts />
+</div>
+<div id="">
+	<CallToAction />
 </div>
 <div id="services">
 	<ArchitecturalServices />
@@ -35,7 +36,7 @@
 	<GalleryTestimonials />
 </div>
 <div id="">
-	<!-- <Location /> -->
+	<Location />
 </div>
 <div id="contact">
 	<Contact />

@@ -29,11 +29,11 @@
 </script>
 
 <nav
-	class="flex justify-between items-center p-4 bg-secondary text-gray-700 shadow-md sticky top-0 z-50"
+	class="flex overflow-auto justify-between items-center p-4 bg-primary text-gray-700 shadow-md sticky top-0 z-50"
 >
 	<a href="/" class="flex items-center">
-		<img src={logo} alt="Mella Studio Logo" class="h-8 mr-2" />
-		<span class="text-xl font-light text-gray-800 hidden md:block">Mella Studio</span>
+		<img src={logo} alt="Mella Studio Logo" class="h-9 mr-2" />
+		<span class="text-2xl font-light text-gray-800 hidden md:block">MELLA STUDIO</span>
 	</a>
 	<div class="md:hidden">
 		<button on:click={toggleDrawer} class="focus:outline-none">
@@ -64,22 +64,23 @@
 				<a
 					href="#about"
 					on:click={toggleDrawer}
-					class="block px-4 py-2 text-lg hover:bg-gray-200 rounded">About Us</a
+					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded">About Us</a
 				>
 				<a
 					on:click={toggleDrawer}
 					href="#products"
-					class="block px-4 py-2 text-lg hover:bg-gray-200 rounded">Products</a
+					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded">Products</a
 				>
 				<a
 					on:click={toggleDrawer}
 					href="#services"
-					class="block px-4 py-2 text-lg hover:bg-gray-200 rounded">Services</a
+					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded">Services</a
 				>
 				<a
 					on:click={toggleDrawer}
 					href="#contact"
-					class="block px-4 py-2 text-lg hover:bg-gray-200 rounded">Contact Us</a
+					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded"
+					>Contact Us</a
 				>
 			</nav>
 		</div>
@@ -87,11 +88,14 @@
 
 	<div class="hidden md:flex space-x-4">
 		<div class="self-center space-x-4">
-			<a href="#about" class="menu-item">About Us</a>
-			<a href="#products" class="menu-item">Products</a>
-			<a href="#services" class="menu-item">Services</a>
+			<a href="#about" class="menu-item hover:cursor-pointer">About Us</a>
+			<a href="#products" class="menu-item hover:cursor-pointer">Products</a>
+			<a href="#products" class="menu-item hover:cursor-pointer">Projects</a>
+			<a href="#services" class="menu-item hover:cursor-pointer">Services</a>
 		</div>
-		<a href="#contact" class="bg-primary text-white px-4 py-2 rounded hover:bg-brand-dark"
+		<a
+			href="#contact"
+			class="bg-brandDark contactButton text-white px-4 py-2 rounded hover:text-primary hover:bg-white"
 			>Contact Us</a
 		>
 	</div>
@@ -103,6 +107,10 @@
 		padding-bottom: 0.25rem; /* Adjust the padding to control the space under the text */
 	}
 
+	.contactButton {
+		/* background-color: #4d5e3b; */
+	}
+
 	.menu-item::after {
 		content: '';
 		position: absolute;
@@ -110,7 +118,7 @@
 		left: 0;
 		width: 0%;
 		height: 2px; /* Thickness of the underline */
-		background-color: var(--brand-color, #7a9360); /* Fallback brand color */
+		background-color: var(--brand-color, #fff); /* Fallback brand color */
 		transition: width 0.3s ease-in-out;
 	}
 

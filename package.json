@@ -15,12 +15,14 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
+		"@beyonk/svelte-mapbox": "^9.1.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
 		"@types/leaflet": "^1.9.8",
+		"@types/mapbox-gl": "^2.7.21",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"autoprefixer": "^10.4.17",
@@ -28,6 +30,7 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+		"mapbox-gl": "^3.1.2",
 		"postcss": "^8.4.35",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
@@ -42,6 +45,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@onsvisual/svelte-maps": "^1.2.18",
 		"emailjs-com": "^3.2.0",
 		"leaflet": "^1.9.4",
 		"maplibre-gl": "^4.0.1",

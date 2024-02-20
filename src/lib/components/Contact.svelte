@@ -37,21 +37,21 @@
 				</ul>
 				<div class="flex space-x-4">
 					<a
-						href="https://www.tiktok.com"
+						href="https://www.tiktok.com/@mella_studio"
 						target="_blank"
 						class="transition duration-300 ease-in-out transform hover:scale-125"
 					>
 						<i class="fab fa-tiktok text-primary hover:text-green-500 text-2xl"></i>
 					</a>
 					<a
-						href="https://www.instagram.com"
+						href="https://www.instagram.com/mella_studio"
 						target="_blank"
 						class="transition duration-300 ease-in-out transform hover:scale-125"
 					>
 						<i class="fab fa-instagram text-primary hover:text-green-500 text-2xl"></i>
 					</a>
 					<a
-						href="https://www.pinterest.com"
+						href="https://pin.it/6EAtyYqgy"
 						target="_blank"
 						class="transition duration-300 ease-in-out transform hover:scale-125"
 					>

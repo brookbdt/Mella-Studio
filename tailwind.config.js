@@ -8,6 +8,7 @@ export default {
         primary: '#7A9360',
         secondary: '#E2E8D8',
         tertiary: '#000000',
+        brandDark: '#4D5E3B',
 
       }
     },

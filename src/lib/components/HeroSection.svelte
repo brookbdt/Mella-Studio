@@ -36,20 +36,30 @@
 	// setInterval(cycleImages, 5000); // Change image every 5 seconds
 </script>
 
-<div class="relative h-screen w-full overflow-hidden" style="height: 50vh;">
-	<img src={hero10} alt="Mella Studio Product" class="w-full h-full object-cover object-center" />
+<div class="relative max-sm:mx-auto w-full overflow-hidden" style="height: 50vh;">
+	<img
+		src={hero10}
+		alt="Mella Studio Product"
+		class="w-full h-full overflow-clip object-cover object-center"
+	/>
 
 	<!-- Overlay: Semi-transparent black background -->
-	<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+	<div class="absolute inset-0 bg-black bg-opacity-20"></div>
 
-	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-10">
-		<h1 class="text-4xl md:text-6xl text-white font-bold">Elevate Your Space with Mella Studio</h1>
-		<p class="text-xl text-white mt-4 mb-4">
+	<div
+		class="absolute ml-16 mx-auto left-1/4 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left z-10 p-4"
+	>
+		<h1
+			class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-snug"
+		>
+			Elevate Your Space with<br /> Mella Studio
+		</h1>
+		<p class="text-sm sm:text-base md:text-lg lg:text-xl text-white mt-4">
 			Handcrafted lighting and innovative architectural designs
 		</p>
 		<a
 			href="#products"
-			class="bg-primary text-white font-semibold px-6 py-3 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-6"
+			class="inline-block bg-primary text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4 sm:mt-6"
 			>Explore Our Collection</a
 		>
 	</div>
@@ -57,4 +67,28 @@
 
 <style>
 	/* Additional custom styles if needed */
+	.header {
+		top: 60%;
+	}
+	/* Ensure the .header class is responsive */
+	@media (min-width: 640px) {
+		/* Adjust for md screens */
+		.header {
+			top: 50%;
+		}
+	}
+
+	@media (min-width: 768px) {
+		/* Adjust for lg screens */
+		.header {
+			top: 50%;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		/* Adjust for xl screens */
+		.header {
+			top: 50%;
+		}
+	}
 </style>

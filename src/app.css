@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    @apply font-sans;
+    @apply font-mon;
 }
 html {
     scroll-behavior: smooth;
+    margin: 0 auto;
 }

@@ -15,19 +15,19 @@
 	const projects: Project[] = [
 		{
 			id: 1,
-			name: 'Elegant Home Design',
+			name: 'MAMP',
 			description: 'A blend of modern and traditional aesthetics.',
 			imageUrl: services1
 		},
 		{
 			id: 2,
-			name: 'Luxury Hotel Concept',
+			name: 'Residential',
 			description: 'Innovative designs for a memorable guest experience.',
 			imageUrl: services2
 		},
 		{
 			id: 3,
-			name: 'Real Estate Development',
+			name: 'Working Spaces',
 			description: 'Sustainable and community-focused projects.',
 			imageUrl: services3
 		}
@@ -35,11 +35,13 @@
 	];
 </script>
 
-<section class="py-12 bg-primary">
+<section class="py-12 bg-gradient-to-r from-blue-50 to-gray-100">
 	<div class="container mx-auto px-4">
 		<div class="text-center mb-12">
-			<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Architectural Services</h2>
-			<p class="text-lg text-white">Creativity and customization at the core of every design</p>
+			<h2 class="text-3xl md:text-4xl font-bold text-gray mb-4">
+				Interior and Architectural Design Services
+			</h2>
+			<p class="text-lg text-gray-700">Creativity and customization at the core of every design</p>
 		</div>
 
 		<div class="flex flex-wrap -mx-4">
@@ -67,13 +69,17 @@
 		</div>
 
 		<div class="text-center mt-12">
-			<p class="text-lg mb-4 text-white">
+			<p
+				class="text-lg mb-4 text-gray-700
+			"
+			>
 				From conceptualization to execution, our team is dedicated to delivering bespoke
 				architectural solutions that not only meet but exceed our clients' expectations.
 			</p>
 			<a
 				href="#contact"
-				class="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition duration-300"
+				type="submit"
+				class="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:cursor-pointer hover:bg-gray-100 transition duration-300"
 				>Consult With Us</a
 			>
 		</div>
