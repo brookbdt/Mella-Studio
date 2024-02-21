@@ -7,6 +7,7 @@
 	import Partner6 from '$lib/assets/images/Partner6.png';
 	import Partner7 from '$lib/assets/images/Partner7.png';
 	import Partner8 from '$lib/assets/images/Partner8.png';
+
 	// Example partner logo data - replace with actual logo image paths
 	const partnerLogos = [
 		Partner1,
