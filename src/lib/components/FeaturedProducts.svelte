@@ -9,7 +9,7 @@
 
 	import Product9 from '$lib/assets/images/Product9.jpg';
 	import Product10 from '$lib/assets/images/Product10.jpg';
-	import Product11 from '$lib/assets/images/Product11.jpg';
+	import Product11 from '$lib/assets/images/product11.jpg';
 	import luna1 from '$lib/assets/images/luna1.png';
 	import luna2 from '$lib/assets/images/luna2.png';
 	import luna3 from '$lib/assets/images/luna3.png';
