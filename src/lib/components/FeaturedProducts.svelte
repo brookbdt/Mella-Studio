@@ -29,30 +29,30 @@
 	}
 
 	const products: Product[] = [
-		{ id: 1, name: 'Sefef', description: 'Light source: 6 Watt', imageUrl: Product1 },
-		{ id: 2, name: 'Chis', description: 'Light source: 6 Watt', imageUrl: Product2 },
-		{ id: 3, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product3 },
+		{ id: 1, name: '', description: '70 x 70 cm', imageUrl: Product1 },
+		{ id: 2, name: '', description: '50 x 50 cm', imageUrl: Product2 },
+		{ id: 3, name: '', description: '60 x 60 cm', imageUrl: Product3 },
 		// { id: 7, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product8 },
-		{ id: 4, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product4 },
-		{ id: 5, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product5 },
+		{ id: 4, name: 'Rose lamp', description: '20 x 20 x 30 cm', imageUrl: Product4 },
+		{ id: 5, name: 'Gum Gum Pendant', description: '40 x 40 cm', imageUrl: Product5 },
 		// { id: 6, name: '6 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product9 },
 		// { id: 8, name: '7 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product10 },
 		///
-		{ id: 16, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna7 },
+		{ id: 16, name: 'Cloud Ceiling', description: '25m x  5m', imageUrl: luna7 },
 
-		{ id: 9, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product11 },
+		{ id: 9, name: 'Mushrit Table Lamp', description: '30 x 30 x 40 cm', imageUrl: Product11 },
 		// { id: 10, name: '9 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna1 },
-		{ id: 11, name: '10 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna2 },
+		{ id: 11, name: 'Srgud', description: '60 x 60 cm', imageUrl: luna2 },
 		// { id: 12, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna3 },
 		// { id: 14, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna5 },
-		{ id: 18, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna9 },
+		{ id: 18, name: 'Fendisha', description: '90 x 90 cm', imageUrl: luna9 },
 
-		{ id: 15, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna6 },
+		{ id: 15, name: 'Cloud Ceiling', description: '25m x  5m', imageUrl: luna6 },
 		////
 		// { id: 9, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product11 },
 
-		{ id: 17, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna8 },
-		{ id: 13, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna4 }
+		{ id: 17, name: 'Fendisha', description: '90 x 90 cm', imageUrl: luna8 },
+		{ id: 13, name: 'Srgud', description: '60 x 60 cm', imageUrl: luna4 }
 
 		// { id: 19, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna10 }
 	];
@@ -72,12 +72,12 @@
 							alt={product.name}
 							class="w-full h-auto group-hover:scale-110 transition-transform duration-700 ease-in-out"
 						/>
-						<!-- <div
+						<div
 							class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent"
 						>
 							<p class="text-white text-sm font-semibold tracking-wide">{product.name}</p>
 							<p class="text-white text-xs mt-2">{product.description}</p>
-						</div> -->
+						</div>
 					</div>
 				</div>
 			{/each}
