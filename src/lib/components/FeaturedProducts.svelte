@@ -10,16 +10,16 @@
 	import Product9 from '$lib/assets/images/Product9.jpg';
 	import Product10 from '$lib/assets/images/Product10.jpg';
 	import Product11 from '$lib/assets/images/product11.jpg';
-	// import luna1 from '$lib/assets/images/luna1';
-	import luna2 from '$lib/assets/images/luna2.png';
-	// import luna3 from '$lib/assets/images/luna3.PNG';
-	import luna4 from '$lib/assets/images/luna4.png';
-	// import luna5 from '$lib/assets/images/luna5.PNG';
-	import luna6 from '$lib/assets/images/luna6.png';
-	import luna7 from '$lib/assets/images/luna7.png';
-	import luna8 from '$lib/assets/images/luna8.png';
-	import luna9 from '$lib/assets/images/luna9.png';
-	// import luna10 from '$lib/assets/images/luna10.PNG';
+	// import luna1 from '$lib/assets/images/luna11';
+	import luna2 from '$lib/assets/images/luna12.png';
+	// import luna3 from '$lib/assets/images/luna13.PNG';
+	import luna4 from '$lib/assets/images/luna14.png';
+	// import luna5 from '$lib/assets/images/luna15.PNG';
+	import luna6 from '$lib/assets/images/luna16.png';
+	import luna7 from '$lib/assets/images/luna17.png';
+	import luna8 from '$lib/assets/images/luna18.png';
+	import luna9 from '$lib/assets/images/luna19.png';
+	// import luna10 from '$lib/assets/images/luna20.PNG';
 
 	interface Product {
 		id: number;
