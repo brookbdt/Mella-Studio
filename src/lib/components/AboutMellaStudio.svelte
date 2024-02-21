@@ -40,8 +40,17 @@
 				<p class="text-lg text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
 					Team of architects, artists, and designers transcending the traditional boundaries of
 					these professions, intending to deliver awe-inspiring spaces that redefine perceptions and
-					expectations. In essence, Mella Studio is not just another studio; it’s a hub creativity.
+					expectations.
 				</p>
+
+				<!-- <br /><br /> -->
+				<div class="flex text-2xl mt-56 items-end">
+					<p class="text-2xl text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
+						In essence, Mella Studio is not just another studio; <span class="font-bold"
+							>it’s a hub for creativity.</span
+						>
+					</p>
+				</div>
 			</div>
 			<div class="w-full ml-0 md:w-1/2">
 				<img

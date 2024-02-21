@@ -72,6 +72,11 @@
 				>
 				<a
 					on:click={toggleDrawer}
+					href="#projects"
+					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded">Projects</a
+				>
+				<a
+					on:click={toggleDrawer}
 					href="#services"
 					class="block px-4 py-2 text-lg hover:bg-gray-200 hover:cursor-pointer rounded">Services</a
 				>
@@ -89,7 +94,7 @@
 		<div class="self-center space-x-4">
 			<a href="#about" class="menu-item hover:cursor-pointer">About Us</a>
 			<a href="#products" class="menu-item hover:cursor-pointer">Products</a>
-			<a href="#products" class="menu-item hover:cursor-pointer">Projects</a>
+			<a href="#projects" class="menu-item hover:cursor-pointer">Projects</a>
 			<a href="#services" class="menu-item hover:cursor-pointer">Services</a>
 		</div>
 		<a

@@ -32,7 +32,7 @@
 <div id="">
 	<OurPartners />
 </div>
-<div id="">
+<div id="projects">
 	<GalleryTestimonials />
 </div>
 <div id="">
