@@ -11,9 +11,9 @@
 		<div class="mb-16">
 			<h2 class="text-4xl font-bold text-gray-900 mb-6">About Mella Studio</h2>
 			<p class="text-lg text-gray-700 max-w-2xl text-justify">
-				At Mella Studio, we blend traditional arts with modern design to create unique lighting
-				products and architectural solutions. Our approach is rooted in Ethiopia's rich cultural
-				heritage, making each piece a narrative of meticulous craftsmanship and innovation.
+				A design studio founded by three visionary architects (2022). Operating in the realm of
+				interior design, lighting, and Ethiopian-themed embroidery art. It has been transforming
+				spaces with its innovative and rich designs.
 			</p>
 		</div>
 
@@ -28,10 +28,8 @@
 			</div>
 			<div class="w-full md:w-1/2 md:pl-10">
 				<p class="text-lg text-gray-700 text-justify">
-					Led by visionary architects, Mella Studio is on a mission to redefine the boundaries of
-					design. Our work is not just about creating objects or spaces; it's about fostering a
-					creative community that transcends borders and brings Ethiopian artistry to the forefront
-					of the global design scene.
+					Mella Studio’s vision is to create unique lighting products and infuse Ethiopian culture
+					into both local and international clients’ surroundings.
 				</p>
 			</div>
 		</div>
@@ -40,10 +38,9 @@
 		<div class="flex ml-0 flex-wrap md:flex-nowrap items-center">
 			<div class="w-full md:w-1/2 md:pr-10 mx-auto">
 				<p class="text-lg text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
-					Join us on our journey to illuminate the world with the unique spirit of Ethiopian
-					craftsmanship. Each project we undertake is a step towards bringing a new perspective to
-					design, blending traditional techniques with contemporary aesthetics to create something
-					truly unique.
+					Team of architects, artists, and designers transcending the traditional boundaries of
+					these professions, intending to deliver awe-inspiring spaces that redefine perceptions and
+					expectations. In essence, Mella Studio is not just another studio; it’s a hub creativity.
 				</p>
 			</div>
 			<div class="w-full ml-0 md:w-1/2">

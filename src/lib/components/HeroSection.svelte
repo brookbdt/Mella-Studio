@@ -36,18 +36,14 @@
 	// setInterval(cycleImages, 5000); // Change image every 5 seconds
 </script>
 
-<div class="relative max-sm:mx-auto w-full overflow-hidden" style="height: 50vh;">
-	<img
-		src={hero10}
-		alt="Mella Studio Product"
-		class="w-full h-full overflow-clip object-cover object-center"
-	/>
+<div class="relative max-w-full mx-auto overflow-hidden" style="height: 50vh;">
+	<img src={hero10} alt="Mella Studio Product" class="w-full h-full object-cover object-center" />
 
 	<!-- Overlay: Semi-transparent black background -->
 	<div class="absolute inset-0 bg-black bg-opacity-20"></div>
 
 	<div
-		class="absolute ml-16 mx-auto left-1/4 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left z-10 p-4"
+		class="absolute ml-8 mx-auto left-1/4 sm:top-2/3 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left z-10 p-4"
 	>
 		<h1
 			class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-snug"
@@ -59,9 +55,11 @@
 		</p>
 		<a
 			href="#products"
-			class="inline-block bg-primary text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4 sm:mt-6"
-			>Explore Our Collection</a
+			class="inline-block bg-primary text-white font-semibold px-2 py-1 sm:px-4 sm:py-2 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4 sm:mt-6"
+			style="min-width: 200px; white-space: nowrap;"
 		>
+			Explore Our Collection
+		</a>
 	</div>
 </div>
 

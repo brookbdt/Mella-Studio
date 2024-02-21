@@ -70,8 +70,9 @@
 						<img
 							src={item.imageUrl}
 							alt={`Gallery item ${i + 1}`}
-							class="transition duration-500 hover:scale-105 h-auto max-h-[400px] w-full mx-auto group-hover:scale-110 ease-in-out"
+							class="transition duration-500 hover:scale-105 object-cover h-full w-full mx-auto group-hover:scale-110 ease-in-out"
 						/>
+
 						<div
 							class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/60 to-transparent"
 						>

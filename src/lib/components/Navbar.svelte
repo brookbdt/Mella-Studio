@@ -10,22 +10,22 @@
 		document.body.style.overflow = isDrawerOpen ? 'hidden' : '';
 	}
 
-	function clickOutside(node) {
-		const handleClick = (event) => {
-			if (node && !node.contains(event.target) && !event.defaultPrevented) {
-				isDrawerOpen = false; // Ensure the drawer is closed
-				document.body.style.overflow = ''; // Restore body overflow
-			}
-		};
+	// function clickOutside(node) {
+	// 	const handleClick = (event) => {
+	// 		if (node && !node.contains(event.target) && !event.defaultPrevented) {
+	// 			isDrawerOpen = false; // Ensure the drawer is closed
+	// 			document.body.style.overflow = ''; // Restore body overflow
+	// 		}
+	// 	};
 
-		document.addEventListener('click', handleClick, true);
+	// 	document.addEventListener('click', handleClick, true);
 
-		return {
-			destroy() {
-				document.removeEventListener('click', handleClick, true);
-			}
-		};
-	}
+	// 	return {
+	// 		destroy() {
+	// 			document.removeEventListener('click', handleClick, true);
+	// 		}
+	// 	};
+	// }
 </script>
 
 <nav
@@ -33,7 +33,7 @@
 >
 	<a href="/" class="flex items-center">
 		<img src={logo} alt="Mella Studio Logo" class="h-9 mr-2" />
-		<span class="text-2xl font-light text-gray-800 hidden md:block">MELLA STUDIO</span>
+		<span class="text-2xl font-light text-gray-800 md:block">MELLA STUDIO</span>
 	</a>
 	<div class="md:hidden">
 		<button on:click={toggleDrawer} class="focus:outline-none">
@@ -44,10 +44,9 @@
 	</div>
 
 	<div
-		use:clickOutside
 		class={`fixed inset-0 bg-black bg-opacity-50 z-40 transform ${isDrawerOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden`}
 	>
-		<div class="p-5 bg-secondary h-2/5 w-full">
+		<div class="p-5 bg-secondary h-2/5 w-1/2">
 			<button on:click={toggleDrawer} class="focus:outline-none">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

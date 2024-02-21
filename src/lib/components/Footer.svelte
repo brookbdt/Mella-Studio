@@ -5,7 +5,7 @@
 <footer class="bg-gray-100 text-center p-4">
 	<div class="flex justify-center space-x-4 mb-4">
 		<p class="text-gray-700">
-			&copy; {currentYear} Made with <span class="text-red-500">♥</span> by
+			&copy; {currentYear} Made with <span class="text-primary">♥</span> by
 			<a
 				href="https://kelaltech.com"
 				target="_blank"
