@@ -58,6 +58,9 @@ devDependencies:
   aws-sdk:
     specifier: ^2.1559.0
     version: 2.1559.0
+  countup.js:
+    specifier: ^2.8.0
+    version: 2.8.0
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -1275,6 +1278,10 @@ packages:
   /cookie@0.6.0:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
+    dev: true
+
+  /countup.js@2.8.0:
+    resolution: {integrity: sha512-f7xEhX0awl4NOElHulrl4XRfKoNH3rB+qfNSZZyjSZhaAoUk6elvhH+MNxMmlmuUJ2/QNTWPSA7U4mNtIAKljQ==}
     dev: true
 
   /cross-spawn@7.0.3:

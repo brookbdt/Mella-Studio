@@ -4,6 +4,7 @@
 	import gallery3 from '$lib/assets/images/gallery3.jpg';
 	import gallery4 from '$lib/assets/images/gallery4.jpg';
 	import gallery5 from '$lib/assets/images/gallery5.jpg';
+	import QedamawiArt2 from '$lib/assets/images/QedamawiArt2.jpg';
 
 	import { onMount } from 'svelte';
 
@@ -35,7 +36,8 @@
 		{ id: 2, imageUrl: gallery2, caption: ' Brotherhood ', size: '85 x 110 cm ' },
 		{ id: 3, imageUrl: gallery3, caption: 'Sisters ', size: '30x 70 cm' },
 		{ id: 4, imageUrl: gallery4, caption: 'Axum', size: ' 25 X 30 cm ' },
-		{ id: 5, imageUrl: gallery5, caption: 'Passengers ', size: '100 x 100 cm ' }
+		{ id: 5, imageUrl: gallery5, caption: 'Passengers ', size: '100 x 100 cm ' },
+		{ id: 6, imageUrl: QedamawiArt2, caption: 'Qedamawi Art', size: '100 x 100 cm ' }
 
 		// Add more items as needed
 	];

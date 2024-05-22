@@ -33,7 +33,7 @@
 				<ul class="space-y-2">
 					<li><strong>Email:</strong> mellastudio007@gmail.com</li>
 					<li><strong>Phone:</strong> +251 901 744 835</li>
-					<li><strong>Address:</strong> Olympia, behind ABC Building, Joshua Building 2nd Floor</li>
+					<li><strong>Address:</strong> Bole Olympia, Next to Mintewab building, 1st floor</li>
 				</ul>
 				<div class="flex space-x-4">
 					<a

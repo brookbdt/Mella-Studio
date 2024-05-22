@@ -20,6 +20,10 @@
 	import luna8 from '$lib/assets/images/luna18.png';
 	import luna9 from '$lib/assets/images/luna19.png';
 	// import luna10 from '$lib/assets/images/luna20.PNG';
+	import lamp2 from '$lib/assets/images/lamp2.jpg';
+	import lamp3 from '$lib/assets/images/lamp3.jpg';
+	import qedamawi2 from '$lib/assets/images/qedamawi2.jpg';
+	import roseLamp from '$lib/assets/images/roseLamp.jpg';
 
 	interface Product {
 		id: number;
@@ -42,17 +46,21 @@
 
 		{ id: 9, name: 'Mushrit Table Lamp', description: '30 x 30 x 40 cm', imageUrl: Product11 },
 		// { id: 10, name: '9 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna1 },
-		{ id: 11, name: 'Srgud', description: '60 x 60 cm', imageUrl: luna2 },
+		{ id: 11, name: 'Srgud Pendant', description: '60 x 60 cm', imageUrl: luna2 },
 		// { id: 12, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna3 },
 		// { id: 14, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna5 },
-		{ id: 18, name: 'Fendisha', description: '90 x 90 cm', imageUrl: luna9 },
+		{ id: 18, name: 'Fendisha Pendant', description: '90 x 90 cm', imageUrl: luna9 },
 
 		{ id: 15, name: 'Cloud Ceiling', description: '25m x  5m', imageUrl: luna6 },
 		////
 		// { id: 9, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: Product11 },
 
-		{ id: 17, name: 'Fendisha', description: '90 x 90 cm', imageUrl: luna8 },
-		{ id: 13, name: 'Srgud', description: '60 x 60 cm', imageUrl: luna4 }
+		{ id: 17, name: 'Fendisha Pendant', description: '90 x 90 cm', imageUrl: luna8 },
+		{ id: 13, name: 'Srgud Pendant', description: '60 x 60 cm x 35 cm', imageUrl: luna4 },
+		{ id: 13, name: 'Zuret Lamp', description: '25 x 25 x 30 cm', imageUrl: lamp2 },
+		{ id: 13, name: 'Poppy Lamp', description: '30 x 30 cm x 40cm', imageUrl: lamp3 },
+		{ id: 13, name: 'Rose Lamp', description: '20 x 20 x 30 cm', imageUrl: roseLamp },
+		{ id: 13, name: 'Qedamawi Floor Lamp', description: '40 x 40 x 150', imageUrl: qedamawi2 }
 
 		// { id: 19, name: '80 * 80 cm (L)', description: 'Light source: 6 Watt', imageUrl: luna10 }
 	];
