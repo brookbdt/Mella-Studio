@@ -5,12 +5,12 @@
 <footer class="bg-gray-100 text-center p-4">
 	<div class="flex justify-center space-x-4 mb-4">
 		<p class="text-gray-700">
-			&copy; {currentYear} Made with <span class="text-primary">♥</span> by
+			&copy; {currentYear} Powered with <span class="text-primary">♥</span> by
 			<a
-				href="https://kelaltech.com"
+				href="https://pulseerp.cloud/"
 				target="_blank"
 				class="hover:text-gray-500"
-				rel="noopener noreferrer">Kelal Tech</a
+				rel="noopener noreferrer">Pulse ERP</a
 			>
 		</p>
 		<!-- Other links -->
