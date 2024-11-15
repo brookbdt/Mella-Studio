@@ -12,8 +12,8 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import OurPartners from '$lib/components/OurPartners.svelte';
 
-	let customersServed = 80;
-	let productsSold = 150;
+	let customersServed = 100;
+	let productsSold = 200;
 	let combinedFollowers = 50000;
 </script>
 

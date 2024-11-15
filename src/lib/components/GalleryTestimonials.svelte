@@ -59,7 +59,7 @@
 	];
 </script>
 
-<section class="py-12 bg-primary">
+<section class="py-24 bg-primary">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-12">
 			Our Embroidery & Texture Arts

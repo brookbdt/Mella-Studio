@@ -35,7 +35,7 @@
 	];
 </script>
 
-<section class="py-12 bg-gradient-to-r from-blue-50 to-gray-100">
+<section class="py-24 bg-gradient-to-r from-blue-50 to-gray-100">
 	<div class="container mx-auto px-4">
 		<div class="text-center mb-12">
 			<h2 class="text-3xl md:text-4xl font-bold text-gray mb-4">

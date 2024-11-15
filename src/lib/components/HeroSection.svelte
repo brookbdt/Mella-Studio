@@ -8,31 +8,31 @@
 	import hero7 from '$lib/assets/images/hero7.jpeg';
 	import hero8 from '$lib/assets/images/hero8.jpeg';
 	import hero9 from '$lib/assets/images/hero9.jpg';
-	import hero10 from '$lib/assets/images/hero10.jpg';
-	import hero10small from '$lib/assets/images/hero10small.jpg';
+	import new22 from '$lib/assets/images/new22.jpg';
+	import new22small2 from '$lib/assets/images/new22small2.jpg';
 </script>
 
 <div class="container">
 	<picture>
-		<source media="(max-width: 768px)" srcset={hero10small} />
-		<source media="(min-width: 769px)" srcset={hero10} />
-		<img src={hero10} alt="Mella Studio Product" class="hero-image" />
+		<source media="(max-width: 768px)" srcset={new22small2} />
+		<source media="(min-width: 769px)" srcset={new22} />
+		<img src={new22} alt="Mella Studio Product" class="hero-image" />
 	</picture>
 
 	<div class="overlay"></div>
 
 	<div class="content">
 		<h1
-			class="ext-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-snug"
+			class="ext-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-amber-50 leading-snug"
 		>
-			Elevate Your Space with<br /> Mella Studio
+			Where Culture <br /> Illuminates Spaces
 		</h1>
 		<p class="text-sm sm:text-base md:text-lg lg:text-xl text-white mt-4">
-			Handcrafted lighting and innovative architectural designs
+			Lighting Solutions + Interior Design
 		</p>
 		<a
 			href="#products"
-			class="explore-button inline-block bg-primary text-white font-semibold px-2 py-1 sm:px-4 sm:py-2 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4 sm:mt-6"
+			class="explore-button inline-block bg-primary text-white px-2 py-1 sm:px-4 sm:py-2 hover:text-primary rounded-lg shadow hover:bg-secondary transition duration-300 mt-4 sm:mt-6"
 			>Explore Our Collection</a
 		>
 	</div>

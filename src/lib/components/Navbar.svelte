@@ -9,23 +9,6 @@
 		isDrawerOpen = !isDrawerOpen;
 		document.body.style.overflow = isDrawerOpen ? 'hidden' : '';
 	}
-
-	// function clickOutside(node) {
-	// 	const handleClick = (event) => {
-	// 		if (node && !node.contains(event.target) && !event.defaultPrevented) {
-	// 			isDrawerOpen = false; // Ensure the drawer is closed
-	// 			document.body.style.overflow = ''; // Restore body overflow
-	// 		}
-	// 	};
-
-	// 	document.addEventListener('click', handleClick, true);
-
-	// 	return {
-	// 		destroy() {
-	// 			document.removeEventListener('click', handleClick, true);
-	// 		}
-	// 	};
-	// }
 </script>
 
 <nav

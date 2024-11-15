@@ -1,64 +1,62 @@
 <script lang="ts">
 	import alllights from '$lib/assets/images/alllights.jpeg';
 	import alldrawings from '$lib/assets/images/alldrawings.jpeg';
-	import about2 from '$lib/assets/images/about2.png';
-	import about from '$lib/assets/images/about.png';
+	import new21 from '$lib/assets/images/new21.png';
+	import new20 from '$lib/assets/images/new20.png';
 </script>
 
-<section class="py-16 bg-gradient-to-r from-blue-50 to-gray-100 text-gray-900">
+<section class="py-24 bg-gradient-to-r from-blue-50 to-gray-100 text-gray-900">
 	<div class="container mx-auto px-4 max-w-7xl">
 		<!-- Title and Main Description -->
 		<div class="mb-16">
-			<h2 class="text-4xl font-bold text-gray-900 mb-6">About Mella Studio</h2>
-			<p class="text-lg text-gray-700 max-w-2xl text-justify">
-				A design studio founded by three visionary architects (2022). Operating in the realm of
-				interior design, lighting, and Ethiopian-themed embroidery art. It has been transforming
-				spaces with its innovative and rich designs.
+			<h2 class="md:text-4xl text-xl font-bold text-gray-900 mb-6 text-center">
+				Crafting Culture, by hand.
+			</h2>
+			<p class="md:text-lg text-gray-700 max-w-full text-center">
+				Mella Studio crafts more than lighting – we create conversations. Each piece tells a story
+				of Ethiopia's rich artistic heritage, reimagined for contemporary spaces. Our artisans
+				transform centuries-old patterns and cultural motifs into sophisticated lighting solutions
+				that make statements in modern homes and offices. From hand-crafted table lamps to statement
+				pendant lights, every Mella creation bridges the gap between Ethiopia's artistic legacy and
+				contemporary design, bringing warmth and character to spaces that dare to be different.
 			</p>
 		</div>
 
 		<!-- First Image and Description -->
-		<div class="flex flex-wrap md:flex-nowrap items-center mb-16">
-			<div class="w-full md:w-1/2">
+		<div class=" items-center mb-16">
+			<div class="w-full">
 				<img
-					src={about}
+					src={new20}
 					alt="Mella Studio Craftsmanship"
-					class="rounded-xl transform transition duration-300 hover:scale-105 mb-8 md:mb-0"
+					class="rounded-xl transform transition duration-300 hover:scale-105"
 				/>
 			</div>
-			<div class="w-full md:w-1/2 md:pl-10">
-				<p class="text-lg text-gray-700 text-justify">
+			<div class="w-full md:pl-10 mt-20">
+				<p class="text-lg text-gray-700 text-center">
 					Mella Studio’s vision is to create unique lighting products and infuse Ethiopian culture
-					into both local and international clients’ surroundings.
+					into both local and international clients’ surroundings. Team of architects, artists, and
+					designers transcending the traditional boundaries of these professions, intending to
+					deliver awe-inspiring spaces that redefine perceptions and expectations.
 				</p>
 			</div>
 		</div>
 
 		<!-- Second Description and Image -->
-		<div class="flex ml-0 flex-wrap md:flex-nowrap items-center">
-			<div class="w-full md:w-1/2 md:pr-10 mx-auto">
-				<p class="text-lg text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
-					Team of architects, artists, and designers transcending the traditional boundaries of
-					these professions, intending to deliver awe-inspiring spaces that redefine perceptions and
-					expectations.
-				</p>
-
-				<!-- <br /><br /> -->
-				<div class="flex text-2xl mt-56 items-end">
-					<p class="text-2xl text-gray-700 max-w-3xl mb-8 text-justify md:mb-0">
-						In essence, Mella Studio is not just another studio; <span class="font-bold"
-							>it’s a hub for creativity.</span
-						>
-					</p>
-				</div>
-			</div>
-			<div class="w-full ml-0 md:w-1/2">
+		<div class=" items-center mb-16">
+			<div class="w-full">
 				<img
-					src={about2}
+					src={new21}
 					alt="Mella Studio Workshop"
 					class="rounded-xl w-full transform transition duration-300 hover:scale-105"
 				/>
 			</div>
+		</div>
+		<div class="w-full md:pl-10 mt-20">
+			<p class="text-lg text-gray-700 text-center">
+				In essence, Mella Studio is not just another studio; <span class="font-bold"
+					>it’s a hub for creativity.</span
+				>
+			</p>
 		</div>
 	</div>
 </section>
