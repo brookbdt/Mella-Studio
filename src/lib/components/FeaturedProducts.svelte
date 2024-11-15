@@ -52,7 +52,7 @@
 		{ id: 9, name: 'Getseta Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new6 },
 		{ id: 9, name: 'Qedamawi Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new7 },
 		{ id: 9, name: 'Qedamawi Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new8 },
-		{ id: 9, name: 'Telet Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new9 },
+		{ id: 9, name: 'Tilet Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new9 },
 		{ id: 9, name: 'Eskista Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new10 },
 		{ id: 9, name: 'Uttu Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new11 },
 		{ id: 9, name: 'Maezen Table Lamp', description: '30 x 30 x 50 cm', imageUrl: new12 },
