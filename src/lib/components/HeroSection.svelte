@@ -1,13 +1,4 @@
 <script lang="ts">
-	import hero1 from '$lib/assets/images/hero1.jpeg';
-	import hero2 from '$lib/assets/images/hero2.jpeg';
-	import hero3 from '$lib/assets/images/hero3.jpeg';
-	import hero4 from '$lib/assets/images/hero4.jpeg';
-	import hero5 from '$lib/assets/images/hero5.jpeg';
-	import hero6 from '$lib/assets/images/hero6.jpeg';
-	import hero7 from '$lib/assets/images/hero7.jpeg';
-	import hero8 from '$lib/assets/images/hero8.jpeg';
-	import hero9 from '$lib/assets/images/hero9.jpg';
 	import new22 from '$lib/assets/images/new22.jpg';
 	import new22small2 from '$lib/assets/images/new22small2.jpg';
 </script>

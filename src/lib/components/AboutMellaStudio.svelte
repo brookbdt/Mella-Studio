@@ -1,8 +1,6 @@
 <script lang="ts">
-	import alllights from '$lib/assets/images/alllights.jpeg';
-	import alldrawings from '$lib/assets/images/alldrawings.jpeg';
-	import new21 from '$lib/assets/images/new21.png';
 	import new20 from '$lib/assets/images/new20.png';
+	import new21 from '$lib/assets/images/new21.png';
 </script>
 
 <section class="py-24 bg-gradient-to-r from-blue-50 to-gray-100 text-gray-900">

@@ -2,8 +2,6 @@
 	import services1 from '$lib/assets/images/services1.jpg';
 	import services2 from '$lib/assets/images/services2.jpg';
 	import services3 from '$lib/assets/images/services3.jpg';
-	import services4 from '$lib/assets/images/services4.jpg';
-	import services5 from '$lib/assets/images/services5.jpg';
 	// Example project data - replace with actual project data
 	interface Project {
 		id: number;
