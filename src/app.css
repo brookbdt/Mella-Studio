@@ -1,10 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* The Seasons Font - Downloaded and self-hosted for reliability */
+@font-face {
+    font-family: 'The Seasons';
+    src: url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+    font-display: swap;
+    font-weight: 300 700;
+    font-style: normal;
+}
+
+/* Alternative fallback for The Seasons using a Google Font with similar characteristics */
+@font-face {
+    font-family: 'The Seasons Fallback';
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+    font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-    @apply font-mon;
+
+/* MellaStudio Brand Color System */
+:root {
+    --mellastudio-green: #7a9360;
+    --mellastudio-green-light: #7a936008; /* 3% opacity */
+    --mellastudio-green-very-light: #7a936005; /* 2% opacity */
+    --mellastudio-green-hover: #7a936012; /* 7% opacity */
+    --mellastudio-green-border: #7a936015; /* 8% opacity */
+    --mellastudio-green-accent: #7a936020; /* 12% opacity for accents */
 }
+
+/* Custom brand background classes */
+.bg-mellastudio-light {
+    background-color: var(--mellastudio-green-light);
+}
+
+.bg-mellastudio-very-light {
+    background-color: var(--mellastudio-green-very-light);
+}
+
+.bg-mellastudio-hover {
+    background-color: var(--mellastudio-green-hover);
+}
+
+.bg-mellastudio-accent {
+    background-color: var(--mellastudio-green-accent);
+}
+
+.border-mellastudio {
+    border-color: var(--mellastudio-green-border);
+}
+
+body {
+    @apply font-sans;
+    background-color: var(--mellastudio-green-very-light);
+}
+
 html {
     scroll-behavior: smooth;
     margin: 0 auto;
+    background-color: var(--mellastudio-green-very-light);
 }

@@ -7,15 +7,10 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-
-		adapter: adapter(),
-		// vite: {
-		// 	optimizeDeps: {
-		// 		include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']
-
-		// 		// plugins: []
-		// 	}
-		// }
+		adapter: adapter()
+	},
+	vitePlugin: {
+		inspector: true
 	}
 };
 

@@ -1,0 +1,33 @@
+{
+    "name": "mellastudio-cms-lambda-handler",
+    "version": "1.0.0",
+    "description": "Lambda function for MellaStudio CMS operations with HMAC authentication",
+    "main": "cms-lambda-handler.js",
+    "dependencies": {
+        "@aws-sdk/client-secrets-manager": "^3.400.0",
+        "@aws-sdk/client-s3": "^3.400.0",
+        "@aws-sdk/s3-request-presigner": "^3.400.0",
+        "pg": "^8.11.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0"
+    },
+    "scripts": {
+        "install-deps": "npm install --production",
+        "deploy": "zip -r mellastudio-cms-handler.zip cms-lambda-handler.js package.json node_modules/",
+        "test-local": "node -e \"console.log('Lambda handler ready for deployment')\""
+    },
+    "keywords": [
+        "aws-lambda",
+        "cms",
+        "mellastudio",
+        "graphql",
+        "hmac-auth",
+        "pulse-erp"
+    ],
+    "author": "MellaStudio",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
