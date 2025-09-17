@@ -2,9 +2,9 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import {
     PUBLIC_APPSYNC_API_URL,
-    PUBLIC_APPSYNC_API_KEY,
     PUBLIC_TENANT_ID
 } from '$env/static/public';
+import { APPSYNC_API_KEY } from '$env/static/private';
 
 import { signRequest } from '$lib/utils/crypto';
 import { CMS_SERVICE_SECRET } from '$env/static/private';
@@ -46,13 +46,13 @@ export const POST: RequestHandler = async ({ request, fetch }) => {
         });
         console.log('signedAuth', signedAuth);
 
-        console.log('API KEY being sent →', PUBLIC_APPSYNC_API_KEY);
+        console.log('API KEY being sent →', APPSYNC_API_KEY);
         // Forward to AppSync with enhanced security headers
         const response = await fetch(PUBLIC_APPSYNC_API_URL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': PUBLIC_APPSYNC_API_KEY,
+                'x-api-key': APPSYNC_API_KEY,
                 'x-tenant-id': requestVariables.tenantId,
                 // Enhanced security headers
                 'x-service-id': signedAuth.serviceId,
