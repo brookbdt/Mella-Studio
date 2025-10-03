@@ -50,6 +50,7 @@
     "dependencies": {
         "@apollo/client": "^3.13.8",
         "@onsvisual/svelte-maps": "^1.2.18",
+        "@sveltejs/adapter-vercel": "^5.10.3",
         "emailjs-com": "^3.2.0",
         "graphql": "^16.11.0",
         "graphql-tag": "^2.12.6",

@@ -14,7 +14,7 @@ MAIL_AUTH_PASS=your-gmail-app-password
 
 # AppSync configuration
 PUBLIC_APPSYNC_API_URL=https://jepidlb7t5gyhjygnp2sziyxku.appsync-api.il-central-1.amazonaws.com/graphql
-PUBLIC_APPSYNC_API_KEY=da2-2ns6zz3o25az5axd5cxoxakxh4
+PUBLIC_APPSYNC_API_KEY=da2-ydbgpg63dje7xdd45woks4irqy
 PUBLIC_AWS_REGION=il-central-1
 PUBLIC_TENANT_ID=mellastudio
 ```

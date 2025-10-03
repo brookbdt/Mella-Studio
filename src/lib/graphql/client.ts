@@ -228,7 +228,7 @@ export async function executeGraphQLQuery(
         endpoint = env.PUBLIC_APPSYNC_API_URL ||
             'https://jepidlb7t5gyhjygnp2sziyxku.appsync-api.il-central-1.amazonaws.com/graphql';
 
-        const apiKey = env.APPSYNC_API_KEY || 'da2-2ns6zz3o25az5axd5cxoxakxh4';
+        const apiKey = env.APPSYNC_API_KEY || 'da2-ydbgpg63dje7xdd45woks4irqy';
 
         headers = {
             'Content-Type': 'application/json',
